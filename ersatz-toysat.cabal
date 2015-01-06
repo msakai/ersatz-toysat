@@ -2,7 +2,7 @@
 --  http://haskell.org/cabal/users-guide/
 
 name:                ersatz-toysat
-version:             0.1.0.0
+version:             0.2.0.0
 synopsis:            toysat driver as backend for ersatz
 description:         toysat driver as backend for ersatz
 homepage:            https://github.com/msakai/ersatz-toysat
@@ -13,8 +13,12 @@ maintainer:          masahiro.sakai@gmail.com
 copyright:           (c) 2014 Masahiro Sakai
 category:            Logic, Algorithms
 build-type:          Simple
-extra-source-files:  README.md
+extra-source-files:  README.md, .travis.yml
 cabal-version:       >=1.10
+
+source-repository head
+  type:     git
+  location: git://github.com/msakai/ersatz-toysat.git
 
 library
   exposed-modules:     Ersatz.Solver.Toysat
