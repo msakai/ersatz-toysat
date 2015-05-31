@@ -28,7 +28,7 @@ flag examples
 library
   exposed-modules:     Ersatz.Solver.Toysat
   build-depends:
-    base >=4.5 && <4.9,
+    base >=4.6 && <4.9,
     array >= 0.4 && < 0.6,
     containers >= 0.4.2.1 && < 0.6,
     transformers == 0.3.*,
