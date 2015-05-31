@@ -38,6 +38,7 @@ install:
  - cabal --version
  - echo "$(ghc --version) [$(ghc --print-project-git-commit-id 2> /dev/null || echo '?')]"
  - travis_retry cabal update
+ - if [ $GHCVER = "head" ] || [ ${GHCVER%.*} = "7.10" ]; then cabal install 'ersatz >=0.3 && <0.4' -f-examples; fi # to avoid compilation error of ersatz
  - cabal install --only-dependencies -fexamples --enable-tests --enable-benchmarks
 
 # Here starts the actual work to be performed for the package under test; any command which exits with a non-zero exit code causes the build to fail.
