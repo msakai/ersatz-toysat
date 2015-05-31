@@ -60,6 +60,12 @@ executable ersatz-toysat-regexp-grid
   default-language: Haskell2010
   ghc-options: -Wall
   hs-source-dirs: examples/regexp-grid
+  other-extensions:
+    TupleSections
+    TemplateHaskell
+    TypeFamilies
+    DeriveGeneric
+    DeriveDataTypeable
 
 executable ersatz-toysat-sudoku
   -- description:   An example program that solves a sudoku problem using Ersatz.
@@ -81,3 +87,8 @@ executable ersatz-toysat-sudoku
     Sudoku.Problem
   ghc-options: -Wall
   hs-source-dirs: examples/sudoku
+  other-extensions:
+    TypeFamilies
+    DeriveGeneric
+    DeriveDataTypeable
+    FlexibleContexts
