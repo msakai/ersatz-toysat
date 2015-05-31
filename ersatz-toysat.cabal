@@ -31,7 +31,7 @@ library
     base >=4.6 && <4.9,
     array >= 0.4 && < 0.6,
     containers >= 0.4.2.1 && < 0.6,
-    transformers == 0.3.*,
+    transformers >=0.3 && <0.5,
     ersatz >=0.3 && <0.4,
     toysolver >=0.2.0  && <0.4.0
   hs-source-dirs:      src
