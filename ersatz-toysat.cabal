@@ -2,7 +2,7 @@
 --  http://haskell.org/cabal/users-guide/
 
 name:                ersatz-toysat
-version:             0.2.2.0
+version:             0.2.3.0
 synopsis:            toysat driver as backend for ersatz
 description:         toysat driver as backend for ersatz
 homepage:            https://github.com/msakai/ersatz-toysat
