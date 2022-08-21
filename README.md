@@ -1,6 +1,7 @@
 ersatz-toysat
 =============
 
+[![haskell-ci](https://github.com/msakai/ersatz-toysat/workflows/haskell-ci/badge.svg)](https://github.com/msakai/ersatz-toysat/actions)
 [![Build Status](https://secure.travis-ci.org/msakai/ersatz-toysat.png?branch=master)](http://travis-ci.org/msakai/ersatz-toysat)
 [![Hackage](https://img.shields.io/hackage/v/ersatz-toysat.svg)](https://hackage.haskell.org/package/ersatz-toysat)
 [![Hackage Deps](https://img.shields.io/hackage-deps/v/ersatz-toysat.svg)](https://packdeps.haskellers.com/feed?needle=ersatz-toysat)
