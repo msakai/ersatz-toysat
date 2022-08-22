@@ -4,7 +4,7 @@
 name:                ersatz-toysat
 version:             0.2.3.0
 synopsis:            toysat driver as backend for ersatz
-description:         toysat driver as backend for ersatz
+description:         This package allows <https://hackage.haskell.org/package/ersatz ersatz> to use a SAT solver implementation of <https://hackage.haskell.org/package/toysolver toysolver> package. The SAT solver implementation is written in Haskell and is reasonably fast.
 homepage:            https://github.com/msakai/ersatz-toysat
 license:             BSD3
 license-file:        LICENSE
