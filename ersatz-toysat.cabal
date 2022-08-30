@@ -13,7 +13,7 @@ maintainer:          masahiro.sakai@gmail.com
 copyright:           (c) 2014 Masahiro Sakai
 category:            Logic, Algorithms
 build-type:          Simple
-extra-source-files:  README.md, examples/LICENSE, .travis.yml
+extra-source-files:  README.md, examples/LICENSE
 cabal-version:       >=1.10
 tested-with:         GHC ==9.2.3 || ==9.0.2 || ==8.10.7 || ==8.8.4 || ==8.6.3
 
